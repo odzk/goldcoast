@@ -76,9 +76,12 @@ a:hover {
 }
 /* Media Queiries */
 
-@media only screen and (max-device-width:320px){
+@media only screen and (max-width:480px){
 	.menu-text {
-		margin-top: 30px;
+		margin-top: 35px !important;
+	}
+	.footer-menu {
+		padding-left: 0;
 	}
 }
 
@@ -94,8 +97,11 @@ a:hover {
 	}
 }
 
-@media only screen and (device-width:768px){
-   /* default iPad screens */
+@media only screen and (min-width:481px) and (max-width:960px) {
+   /* default iPad / Tablet screens */
+  	.menu-text {
+   		margin-top: 35px;
+   	}
 }
 
 @media only screen and (min-width:1440px){
