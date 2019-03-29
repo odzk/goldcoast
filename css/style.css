@@ -8,6 +8,7 @@ header	 {
 .footer {
 	background: #414b4c;
 	height: 400px;
+	color: #fff;
 
 }
 
@@ -22,6 +23,16 @@ header	 {
     height: 100px;
     pointer-events: none;
 	background-repeat-y: no-repeat;
+}
+
+.footer-menu {
+	margin-top: 80px;
+	text-align: center;
+	list-style-type: none;
+}
+
+.footer-menu a {
+	color: #fff;
 }
 
 .main-content {
