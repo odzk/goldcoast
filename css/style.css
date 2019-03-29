@@ -56,6 +56,7 @@ header	 {
 	flex-direction: row;
 	list-style-type: none;
 	float: right;
+	margin-left: 25px;
 }
 
 .menu-item {
@@ -75,6 +76,14 @@ a:hover {
 	text-decoration: none;
 }
 /* Media Queiries */
+
+@media only screen and (min-width:280px) and (max-width:319px){
+/* for iphone 5/se and other older mobile devices */
+.menu-text {
+		margin-top: 30px !important;
+		margin-left: 25px !important
+	}
+}
 
 @media only screen and (max-width:480px){
 	.menu-text {
