@@ -81,8 +81,11 @@ a:hover {
 /* for iphone 5/se and other older mobile devices */
 .menu-text {
 		margin-top: 30px !important;
-		margin-left: 25px !important
 	}
+
+.mb-left {
+		margin-left: 20px !important;
+	}	
 }
 
 @media only screen and (max-width:480px){
