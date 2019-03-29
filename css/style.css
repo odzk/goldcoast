@@ -80,7 +80,7 @@ a:hover {
 @media only screen and (min-width:280px) and (max-width:319px){
 /* for iphone 5/se and other older mobile devices */
 .menu-text {
-		margin-top: 30px !important;
+		margin-top: 20px !important;
 	}
 
 .mb-left {
