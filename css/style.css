@@ -5,11 +5,17 @@ header	 {
 	font-family: 'Comfortaa', cursive;
 }
 
+.footer-main {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+
 .footer {
 	background: #414b4c;
 	color: #fff;
 	padding-bottom: 100px;
-
+	height: auto;
 }
 
 .footer-divider {
@@ -25,8 +31,12 @@ header	 {
 	background-repeat-y: no-repeat;
 }
 
+.footer-main p {
+	font-size: 15px;
+}
+
 .footer-menu {
-	margin-top: 100px;
+	margin-top: 60px;
 	text-align: center;
 	list-style-type: none;
 	font-size: 13px;
@@ -46,6 +56,7 @@ header	 {
 	background: url('../img/beach-chairs.jpg');
 }
 
+
 .logo-container {
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -57,6 +68,7 @@ header	 {
 	list-style-type: none;
 	float: right;
 	margin-left: 25px;
+	font-weight: 600;
 }
 
 .menu-item {
@@ -118,4 +130,26 @@ a:hover {
 
 @media only screen and (min-width:1440px){
     /* styles for browsers larger than 1440px; */
+    .logo-main {
+		width: 1105px;
+		height: 114px;
+		margin-right:0px;
+	}
+
+	.logo-container {
+		margin-top: 18px;
+		padding-left: 35px;
+	}
+
+	.menu-text {
+		margin-top: 45px;
+		padding-right: 0px;
+	}
+
+	.footer-main {
+	margin-right: auto;
+	margin-left: 400px;
+	padding-top: 31px;
+	padding-left: 0px;
+	}
 }
