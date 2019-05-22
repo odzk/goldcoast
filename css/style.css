@@ -1,26 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
-header	 {
-	font-family: 'Comfortaa', cursive;
+header {
+    font-family: 'Comfortaa', cursive;
 }
 
 .footer-main {
-	width: 1080px;
-	margin: 0 auto;
+    width: 1080px;
+    margin: 0 auto;
 }
 
-
 .footer {
-	background: #414b4c;
-	color: #fff;
-	padding-bottom: 100px;
-	height: auto;
+    background: #414b4c;
+    color: #fff;
+    padding-bottom: 100px;
+    height: auto;
 }
 
 .footer-divider {
-	background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0wIDE0MGgxMjgwQzU3My4wOCAxNDAgMCAwIDAgMHoiIGZpbGwtb3BhY2l0eT0iLjMiLz48cGF0aCBkPSJNMCAxNDBoMTI4MEM1NzMuMDggMTQwIDAgMzAgMCAzMHoiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMCAxNDBoMTI4MEM1NzMuMDggMTQwIDAgNjAgMCA2MHoiLz48L2c+PC9zdmc+');
-	transform: rotateY(180deg) rotateX(180deg);
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0wIDE0MGgxMjgwQzU3My4wOCAxNDAgMCAwIDAgMHoiIGZpbGwtb3BhY2l0eT0iLjMiLz48cGF0aCBkPSJNMCAxNDBoMTI4MEM1NzMuMDggMTQwIDAgMzAgMCAzMHoiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMCAxNDBoMTI4MEM1NzMuMDggMTQwIDAgNjAgMCA2MHoiLz48L2c+PC9zdmc+');
+    transform: rotateY(180deg) rotateX(180deg);
     background-size: 100% 100px;
     z-index: 1;
     display: block;
@@ -28,128 +26,123 @@ header	 {
     width: 100%;
     height: 100px;
     pointer-events: none;
-	background-repeat-y: no-repeat;
+    background-repeat-y: no-repeat;
 }
 
 .footer-main p {
-	font-size: 15px;
+    font-size: 15px;
 }
 
 .footer-menu {
-	margin-top: 60px;
-	text-align: center;
-	list-style-type: none;
-	font-size: 13px;
-
+    margin-top: 60px;
+    text-align: center;
+    list-style-type: none;
+    font-size: 13px;
 }
 
-.footer-menu a, .footer-logo a{
-	color: #fff;
+.footer-menu a,
+.footer-logo a {
+    color: #fff;
 }
 
-.footer-menu > li {
-	margin-bottom: 25px;
+.footer-menu>li {
+    margin-bottom: 25px;
 }
 
 .main-content {
-	height:400px;
-	background: url('../img/beach-chairs.jpg');
+    height: 400px;
+    /* background: url('../img/beach-chairs.jpg'); */
 }
 
-
 .logo-container {
-	margin-top: 20px;
-	margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .menu-text {
-	display: inline-flex;
-	flex-direction: row;
-	list-style-type: none;
-	float: right;
-	margin-left: 25px;
-	font-weight: 600;
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    float: right;
+    margin-left: 25px;
+    font-weight: 600;
 }
 
 .menu-item {
-	margin-left: 30px;
-
+    margin-left: 30px;
 }
 
 .active {
-	color: #28687f;
+    color: #28687f;
 }
 
 a {
-	color: #414b4c;
+    color: #414b4c;
 }
 
 a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
+
+
 /* Media Queiries */
 
-@media only screen and (min-width:280px) and (max-width:319px){
-/* for iphone 5/se and other older mobile devices */
-.menu-text {
-		margin-top: 20px !important;
-	}
-
-.mb-left {
-		margin-left: 20px !important;
-	}	
+@media only screen and (min-width:280px) and (max-width:319px) {
+    /* for iphone 5/se and other older mobile devices */
+    .menu-text {
+        margin-top: 20px !important;
+    }
+    .mb-left {
+        margin-left: 20px !important;
+    }
 }
 
-@media only screen and (max-width:480px){
-	.menu-text {
-		margin-top: 35px !important;
-	}
-	.footer-menu {
-		padding-left: 0;
-	}
+@media only screen and (max-width:480px) {
+    .menu-text {
+        margin-top: 35px !important;
+    }
+    .footer-menu {
+        padding-left: 0;
+    }
 }
 
-@media only screen and (min-width:960px){
-	.logo {
-		width: 171px;
-		height: auto;
-	}
-
-	.menu-text {
-		margin-top: 35px;
-		font-size: 17px;
-	}
+@media only screen and (min-width:960px) {
+    .logo {
+        width: 171px;
+        height: auto;
+    }
+    .menu-text {
+        margin-top: 35px;
+        font-size: 17px;
+    }
 }
 
 @media only screen and (min-width:481px) and (max-width:960px) {
-   /* default iPad / Tablet screens */
-  	.menu-text {
-   		margin-top: 35px;
-   	}
+    /* default iPad / Tablet screens */
+    .menu-text {
+        margin-top: 35px;
+    }
 }
 
-@media only screen and (min-width:1440px){
+@media only screen and (min-width:1440px) {
     /* styles for browsers larger than 1440px; */
     .logo-main {
-		width: 1105px;
-		height: 114px;
-		margin-right:0px;
-	}
-
-	.logo-container {
-		margin-top: 18px;
-		padding-left: 35px;
-	}
-
-	.menu-text {
-		margin-top: 45px;
-		padding-right: 0px;
-	}
-
-	.footer-main {
-	margin-right: auto;
-	margin-left: 400px;
-	padding-top: 31px;
-	padding-left: 0px;
-	}
+        width: 1105px;
+        height: 114px;
+        margin-right: 0px;
+    }
+    .logo-container {
+        margin-top: 18px;
+        padding-left: 35px;
+    }
+    .menu-text {
+        margin-top: 45px;
+        padding-right: 0px;
+    }
+    .footer-main {
+        margin-right: auto;
+        margin-left: 400px;
+        padding-top: 31px;
+        padding-left: 0px;
+    }
 }
