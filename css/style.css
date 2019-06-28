@@ -84,6 +84,26 @@ a:hover {
     text-decoration: none;
 }
 
+.features {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    background-color: #28687f;
+    color: #fff;
+    line-height: 1.7em;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features-header {
+    font-size: 20px;
+}
+
+.features-content {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif !important;
+}
+
 
 /* Media Queiries */
 
@@ -95,6 +115,10 @@ a:hover {
     .mb-left {
         margin-left: 20px !important;
     }
+    .features {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
 }
 
 @media only screen and (max-width:480px) {
@@ -103,6 +127,10 @@ a:hover {
     }
     .footer-menu {
         padding-left: 0;
+    }
+    .features {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 }
 
@@ -121,6 +149,10 @@ a:hover {
     /* default iPad / Tablet screens */
     .menu-text {
         margin-top: 35px;
+    }
+    .features {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 }
 
