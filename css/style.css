@@ -113,7 +113,7 @@ a:hover {
         margin-top: 20px !important;
     }
     .mb-left {
-        margin-left: 20px !important;
+        margin-left: 80px !important;
     }
     .features {
         padding-left: 20px !important;
@@ -122,6 +122,9 @@ a:hover {
 }
 
 @media only screen and (max-width:480px) {
+    .menu-adj {
+        margin-left: 100px;
+    }
     .menu-text {
         margin-top: 35px !important;
     }
@@ -158,6 +161,22 @@ a:hover {
 
 @media only screen and (min-width:1440px) {
     /* styles for browsers larger than 1440px; */
+    .features {
+        padding-left: 260px !important;
+        padding-right: 260px !important;
+    }
+    .menu-container {
+        margin-right: 0 !important;
+    }
+    .menu-adj {
+        margin-left: 250px;
+    }
+    .logo-adj {
+        margin-left: -490px !important;
+    }
+    .header-lg-menu {
+        margin-left: 300px !important;
+    }
     .logo-main {
         width: 1105px;
         height: 114px;
